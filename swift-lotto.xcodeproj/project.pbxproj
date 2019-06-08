@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FE3A1E222ABD25200FA714A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1E122ABD25200FA714A /* main.swift */; };
+		5FE3A1EC22ABD29600FA714A /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1EB22ABD29600FA714A /* Lotto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5FE3A1DE22ABD25200FA714A /* swift-lotto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-lotto"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE3A1E122ABD25200FA714A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5FE3A1EB22ABD29600FA714A /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,34 @@
 		5FE3A1E022ABD25200FA714A /* swift-lotto */ = {
 			isa = PBXGroup;
 			children = (
+				5FE3A1EA22ABD27400FA714A /* app */,
+				5FE3A1E922ABD26E00FA714A /* view */,
+				5FE3A1E822ABD26800FA714A /* model */,
 				5FE3A1E122ABD25200FA714A /* main.swift */,
 			);
 			path = "swift-lotto";
+			sourceTree = "<group>";
+		};
+		5FE3A1E822ABD26800FA714A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5FE3A1EB22ABD29600FA714A /* Lotto.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		5FE3A1E922ABD26E00FA714A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		5FE3A1EA22ABD27400FA714A /* app */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = app;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE3A1EC22ABD29600FA714A /* Lotto.swift in Sources */,
 				5FE3A1E222ABD25200FA714A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
