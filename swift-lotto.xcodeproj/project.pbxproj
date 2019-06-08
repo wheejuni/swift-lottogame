@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		5FE3A1E222ABD25200FA714A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1E122ABD25200FA714A /* main.swift */; };
 		5FE3A1EC22ABD29600FA714A /* Lotto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1EB22ABD29600FA714A /* Lotto.swift */; };
+		5FE3A1EE22ABD37700FA714A /* LottoGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1ED22ABD37700FA714A /* LottoGame.swift */; };
+		5FE3A1F022ABD3AA00FA714A /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1EF22ABD3AA00FA714A /* Money.swift */; };
+		5FE3A1F322ABD45300FA714A /* LottoGameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F222ABD45300FA714A /* LottoGameError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		5FE3A1DE22ABD25200FA714A /* swift-lotto */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-lotto"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE3A1E122ABD25200FA714A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5FE3A1EB22ABD29600FA714A /* Lotto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotto.swift; sourceTree = "<group>"; };
+		5FE3A1ED22ABD37700FA714A /* LottoGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGame.swift; sourceTree = "<group>"; };
+		5FE3A1EF22ABD3AA00FA714A /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		5FE3A1F222ABD45300FA714A /* LottoGameError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGameError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5FE3A1EB22ABD29600FA714A /* Lotto.swift */,
+				5FE3A1ED22ABD37700FA714A /* LottoGame.swift */,
+				5FE3A1EF22ABD3AA00FA714A /* Money.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -85,8 +93,17 @@
 		5FE3A1EA22ABD27400FA714A /* app */ = {
 			isa = PBXGroup;
 			children = (
+				5FE3A1F122ABD42000FA714A /* exception */,
 			);
 			path = app;
+			sourceTree = "<group>";
+		};
+		5FE3A1F122ABD42000FA714A /* exception */ = {
+			isa = PBXGroup;
+			children = (
+				5FE3A1F222ABD45300FA714A /* LottoGameError.swift */,
+			);
+			path = exception;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE3A1EE22ABD37700FA714A /* LottoGame.swift in Sources */,
 				5FE3A1EC22ABD29600FA714A /* Lotto.swift in Sources */,
+				5FE3A1F022ABD3AA00FA714A /* Money.swift in Sources */,
 				5FE3A1E222ABD25200FA714A /* main.swift in Sources */,
+				5FE3A1F322ABD45300FA714A /* LottoGameError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
