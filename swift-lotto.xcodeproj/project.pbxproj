@@ -13,6 +13,8 @@
 		5FE3A1F022ABD3AA00FA714A /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1EF22ABD3AA00FA714A /* Money.swift */; };
 		5FE3A1F322ABD45300FA714A /* LottoGameError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F222ABD45300FA714A /* LottoGameError.swift */; };
 		5FE3A1F522ACB36C00FA714A /* LottoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F422ACB36C00FA714A /* LottoType.swift */; };
+		5FE3A1F722ACB5BE00FA714A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F622ACB5BE00FA714A /* GameView.swift */; };
+		5FE3A1F922ACB5FB00FA714A /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F822ACB5FB00FA714A /* GameService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		5FE3A1EF22ABD3AA00FA714A /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 		5FE3A1F222ABD45300FA714A /* LottoGameError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoGameError.swift; sourceTree = "<group>"; };
 		5FE3A1F422ACB36C00FA714A /* LottoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoType.swift; sourceTree = "<group>"; };
+		5FE3A1F622ACB5BE00FA714A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		5FE3A1F822ACB5FB00FA714A /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		5FE3A1E922ABD26E00FA714A /* view */ = {
 			isa = PBXGroup;
 			children = (
+				5FE3A1F622ACB5BE00FA714A /* GameView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -97,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				5FE3A1F122ABD42000FA714A /* exception */,
+				5FE3A1F822ACB5FB00FA714A /* GameService.swift */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				5FE3A1F022ABD3AA00FA714A /* Money.swift in Sources */,
 				5FE3A1E222ABD25200FA714A /* main.swift in Sources */,
 				5FE3A1F322ABD45300FA714A /* LottoGameError.swift in Sources */,
+				5FE3A1F722ACB5BE00FA714A /* GameView.swift in Sources */,
+				5FE3A1F922ACB5FB00FA714A /* GameService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

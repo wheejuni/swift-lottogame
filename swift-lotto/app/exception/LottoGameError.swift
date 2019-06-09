@@ -10,4 +10,5 @@ import Foundation
 
 enum LottoGameError: Error {
     case insufficientMoneyAvailable
+    case notANumberInput
 }
