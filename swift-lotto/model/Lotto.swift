@@ -35,4 +35,19 @@ struct Lotto {
             throw LottoGameError.notANumberInput
         }
     }
+    
+    func containsNumber(number: Int) -> Bool {
+        return self.numbers.contains(number)
+    }
+    
+    static func ==(user: Lotto, comparison: Lotto) -> Int {
+        var matchingCount = 0
+        
+        for lottoNumber in user.numbers {
+            if(comparison.containsNumber(number: lottoNumber)) {
+                matchingCount += 1
+            }
+        }
+        return matchingCount
+    }
 }

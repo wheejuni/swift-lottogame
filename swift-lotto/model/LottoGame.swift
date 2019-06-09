@@ -20,4 +20,11 @@ class LottoGame {
         }
         throw LottoGameError.insufficientMoneyAvailable
     }
+    
+    func calculatePrize(computerLotto: Lotto) -> Int {
+        var prizeMoney = 0
+        
+        
+        return prizeMoney
+    }
 }

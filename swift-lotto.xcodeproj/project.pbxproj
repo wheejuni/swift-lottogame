@@ -15,6 +15,7 @@
 		5FE3A1F522ACB36C00FA714A /* LottoType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F422ACB36C00FA714A /* LottoType.swift */; };
 		5FE3A1F722ACB5BE00FA714A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F622ACB5BE00FA714A /* GameView.swift */; };
 		5FE3A1F922ACB5FB00FA714A /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1F822ACB5FB00FA714A /* GameService.swift */; };
+		5FE3A1FB22ACFB9A00FA714A /* LottoPrize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE3A1FA22ACFB9A00FA714A /* LottoPrize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		5FE3A1F422ACB36C00FA714A /* LottoType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoType.swift; sourceTree = "<group>"; };
 		5FE3A1F622ACB5BE00FA714A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		5FE3A1F822ACB5FB00FA714A /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		5FE3A1FA22ACFB9A00FA714A /* LottoPrize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoPrize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				5FE3A1ED22ABD37700FA714A /* LottoGame.swift */,
 				5FE3A1EF22ABD3AA00FA714A /* Money.swift */,
 				5FE3A1F422ACB36C00FA714A /* LottoType.swift */,
+				5FE3A1FA22ACFB9A00FA714A /* LottoPrize.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				5FE3A1F522ACB36C00FA714A /* LottoType.swift in Sources */,
 				5FE3A1EE22ABD37700FA714A /* LottoGame.swift in Sources */,
 				5FE3A1EC22ABD29600FA714A /* Lotto.swift in Sources */,
+				5FE3A1FB22ACFB9A00FA714A /* LottoPrize.swift in Sources */,
 				5FE3A1F022ABD3AA00FA714A /* Money.swift in Sources */,
 				5FE3A1E222ABD25200FA714A /* main.swift in Sources */,
 				5FE3A1F322ABD45300FA714A /* LottoGameError.swift in Sources */,
