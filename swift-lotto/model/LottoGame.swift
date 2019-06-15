@@ -24,6 +24,10 @@ class LottoGame {
     func calculatePrize(computerLotto: Lotto) -> Int {
         var prizeMoney = 0
         
+        for lotto in self.lottos {
+            var matchingCount = lotto == computerLotto
+            
+        }
         
         return prizeMoney
     }

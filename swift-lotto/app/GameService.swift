@@ -28,6 +28,6 @@ class GameService {
     }
     
     func doPlay() {
-        
+        var matchingCount = LottoGame.calculatePrize(self.computerLotto)
     }
 }
