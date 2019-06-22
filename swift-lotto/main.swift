@@ -9,5 +9,9 @@
 import Foundation
 
 struct main {
-    
+    static func playLotto() {
+        print("hello lotto")
+    }
 }
+
+main.playLotto()
