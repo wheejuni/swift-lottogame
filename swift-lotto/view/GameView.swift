@@ -19,4 +19,7 @@ class GameView {
         self.gameService = GameService(money: money)
     }
     
+    func playView() {
+        gameService.doPlay();
+    }
 }

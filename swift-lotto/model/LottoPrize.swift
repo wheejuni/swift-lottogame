@@ -13,6 +13,12 @@ protocol LottoPrize {
     var matchingCount: Int {get}
 }
 
+struct LottoNoPrize: LottoPrize {
+    var prizeMoney: Int = 0
+    
+    var matchingCount: Int = 0
+}
+
 enum LottoPrizeTypes: LottoPrize {
     case fifthPrize, fourthPrize, thirdPrize, secondPrize, firstPrize;
     
@@ -53,4 +59,22 @@ enum LottoPrizeTypes: LottoPrize {
             return 7
         }
     }
+    
+    static func getMatchingPrize(matchingCount: Int) -> LottoPrize {
+        switch matchingCount {
+        case 3:
+            return LottoPrizeTypes.fifthPrize
+        case 4:
+            return LottoPrizeTypes.fourthPrize
+        case 5:
+            return LottoPrizeTypes.thirdPrize
+        case 6:
+            return LottoPrizeTypes.secondPrize
+        case 7:
+            return LottoPrizeTypes.firstPrize
+        default:
+            return LottoNoPrize()
+        }
+    }
 }
+

@@ -25,10 +25,10 @@ class LottoGame {
         var prizeMoney = 0
         
         for lotto in self.lottos {
-            var matchingCount = lotto == computerLotto
+            let matchingCount = lotto == computerLotto
             
+            prizeMoney += LottoPrizeTypes.getMatchingPrize(matchingCount: matchingCount).prizeMoney
         }
-        
         return prizeMoney
     }
 }
